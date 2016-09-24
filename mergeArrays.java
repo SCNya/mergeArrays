@@ -8,6 +8,7 @@ import java.util.Arrays;
  * @author Vsevolod
  * @version 1.0
  */
+
 public class mergeArrays {
     public static void main(String[] args) {
 
@@ -52,7 +53,6 @@ int[] a2 = new int[0];*/
                 }
 
             } else {
-
 
                 if (i < a1.length) {
 
