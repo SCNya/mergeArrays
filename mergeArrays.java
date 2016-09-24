@@ -56,14 +56,17 @@ int[] a2 = new int[0];*/
 
                 if (i < a1.length) {
 
-                    mass[pos] = a1[i];
-                    ++i;
+                    for (; pos < mass.length; pos++) {
+                        mass[pos] = a1[i];
+                        ++i;
+                    }
 
                 } else {
 
-                    mass[pos] = a2[j];
-                    ++j;
-
+                    for (; pos < mass.length; pos++) {
+                        mass[pos] = a2[j];
+                        ++j;
+                    }
                 }
             }
         }
